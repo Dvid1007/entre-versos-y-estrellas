@@ -1,0 +1,381 @@
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Linear+B&display=swap');
+
+ @import url(./prueba.css); 
+
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      height: 250vh;
+      text-align: center;
+      font-family: sans-serif;
+      /* background: #f1ece6; */
+  }
+  /* img{
+    max-width: 100%;
+  } */
+  *{ 
+      margin: 0;
+      padding: 0;
+      border: 0;
+      /* font-size: 100%; */
+      vertical-align: baseline;
+      list-style: none;
+      box-sizing: border-box;
+      text-decoration: none;
+    }
+    /* PORTADA */
+   
+    .port__contenedor{
+        display: flex;
+        justify-content: center;
+        background: #f3f3f3;
+        background: url(../img/background_port.jpg) fixed;
+    }
+    .port{
+        background: white;
+        width:52rem;
+        height:180vh;
+        border: 10px solid white;
+        box-shadow: 0.3rem 1rem rgba(0, 0, 0, 0.4);
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .port__title{
+        font-size: 24px;
+        margin-top: 10px;
+        padding-top:7.5rem ;
+        height: 40rem;
+        width: 100%;
+        background: url("../img/port.jpg") no-repeat center / 90% 40rem;
+        border-radius: 3.1rem;
+        font-family: 'Libre Baskerville';
+        /* animation: fadeIn 3s  ease ; */
+        
+        }
+
+        /*TEXTO DE PORTADA*/
+        .text__port{
+            font-size: 18px;
+            text-align: left;
+            margin-top: 6rem;
+            margin-left: 2.5rem;
+            font-family: 'Libre Baskerville';
+            font-weight: 800;
+        }
+        .text__port--active{
+            font-weight: 100;
+            margin-top: 3rem;
+            padding-right: 6rem;
+            line-height: 2.5rem;
+        }
+        .text__port--line{
+            font-weight: bold;
+            text-decoration: underline;
+            margin-top: 4rem;
+        }
+
+
+        /*prologo*/
+        .contenedor__prologo{
+         display: flex;
+        justify-content: center;
+        background: url(../img/background_port.jpg) fixed;
+
+        /* background: #f1ece6; */
+        height: 180vh;
+
+        }
+        /* CONTENEDOR DEL PROLOGO  */
+        .container__pro{
+        background: white;
+        width:52rem;
+        height:160vh;
+        border: 10px solid white;
+        border-radius: 5px;
+        margin-top: 100px;
+        box-shadow: 0.3rem 1rem rgba(0, 0, 0, 0.4);
+
+        }
+        /* DECORACION FLOTANDO ARRIBA */
+        .float__item{
+             height: 48%; 
+             position: absolute;
+             display: flex;
+             justify-content: center;
+        }
+        /* DECORACION FLOTANDO  ABAJO */
+        .float__item--bottom{
+            display: flex;
+             right: 0; 
+            left:30rem; 
+        }
+
+        /* TITULO PROLOGO */
+       .prologo__title{
+            font-family: 'Merriweather', serif;
+            font-size: 4rem;
+            text-align: left;
+            padding: 1rem 1rem 0 3rem;
+        }
+        /* DECORACION DEL PROLOGO */
+        #decoration_pro{
+            font-size: 34px;
+        }
+        /* TEXTO DEL PROLOGO */
+        .text__pro{
+            text-align: left;
+            font-size: 18px;
+            padding: 3rem;
+            font-family: 'Libre Baskerville';
+            line-height: 2rem;
+        }
+        /* CONTENEDOR GENERAL DEL POEMA */
+        .container__poem{
+            display: flex;
+            justify-content: center;
+            background: url(../img/background_port.jpg) fixed;
+            /* background: #f1ece6; */
+            
+        }
+          /* CONTENEDOR DEL POEMA */
+
+       
+        .poem__poem{
+            background: white;
+            margin-top: 100px;
+            /* margin-bottom: 100px; */
+            width:52rem;
+            height: auto; /*_:_,.-.._:-:-.PENDIENTE_:-:-:-.-::_:-.*/
+            border: 10px solid white;
+            border-radius: 5px;
+            box-shadow: 0.3rem 1rem rgba(0, 0, 0, 0.4);
+        }
+        #backgroun--heart{
+            background: url(../img/corazon--prueba.png) no-repeat center ;
+        }
+        #backgroun--rosas{
+            background: url(../img/rosas--fondo.png)  ;
+        }
+        #backgroun-paris{
+            background: url(../img/paris--fondo.png);
+        }
+        #relleno-5{
+           
+            width: 50%;
+            height: 65%;
+            box-shadow: 3px 3px 5px 0px #daa494, 3px 3px 5px 0px #daa494, 3px 3px 5px 0px #daa494;
+            border-radius: 50%;
+            transition: all 1s ease;
+        }
+        #relleno-5:hover{
+            border-radius: 5px;
+
+        }
+        #relleno-6{
+            box-shadow: 3px 0px 5px 0px #afb93c, 2px 3px 5px 0px #0004ff, 2px 3px 5px 0px #0004ff;
+        }
+        .img--description{
+            width: 60%;
+            height: 30rem;
+            border-radius: 3px;
+            box-shadow: 3px 3px 5px 0px #b8b7b6,3px 3px 5px 0px #b8b7b6, 3px 3px 5px 0px #b8b7b6;
+            /* transition: all .3s ease-in; */
+
+        }
+
+       
+        #video__teamo{
+            box-shadow: 3px 3px 5px 0px ;
+
+        }
+        
+        #relleno-4{
+            box-shadow: 3px 3px 5px 0px #8ea4a7, 3px 3px 5px 0px #8ea4a7, 3px 3px 5px 0px #8ea4a7;
+       
+
+        } 
+        
+        #star--float{
+            height: 18%;
+            float: right;
+        }
+        #poem__title--grado{
+            margin-top: 8px;
+            height: 35rem;
+            width: 35rem; 
+            border-radius: 5px;
+            box-shadow: 3px 3px 4px 1px #665659;
+        }
+        #contenedor__grado{
+            height: 82vh;
+            border-radius: 5px 5px 0px 0px;
+            box-shadow: 0.3rem 0 rgba(0, 0, 0, 0.4);
+        }
+        #union{
+            margin-top: 0;
+            box-shadow: 0.3rem 0 rgba(0, 0, 0, 0.4);
+            box-shadow: 0.3rem 1rem rgba(0, 0, 0, 0.4);
+            border-radius:  0px 0px 5px 5px;
+        }
+        #relleno-3{
+            box-shadow: 3px 3px 5px 0px #96743c;
+        }
+       
+       
+    
+
+        /* TITULO DE LA DESCRIPCION CON FOTO  */
+        
+
+        /* TITULO DEL POEMA GENERAL. */
+       
+
+        .poem__description{
+            text-align: left;
+            font-size: 18px;
+            padding: 3rem; 
+            font-family: 'Libre Baskerville';
+            line-height: 1.5;
+        }
+        .poem__poem--img{
+            height: auto;
+            text-align: center;
+          
+        }
+      
+   
+
+        .img__relleno{
+            width: 80%;
+            margin: 70px 85px 0 ;
+            box-shadow: 3px 3px 5px 0px #0c6ac0;
+            border-radius: 5px;
+        }
+
+        .poem__text{
+            text-align: left;
+            font-size: 18px;
+            font-family: 'Libre Baskerville';
+            line-height: 2;
+            padding:1rem 2rem 1rem 3rem ;
+            /* margin: 0 6rem 0 0; */
+        }
+        .poem__text--center{
+             /* margin: 0 0 0 6rem;  */
+             text-align: center;
+        }
+         .poem__title{
+            margin-top: 3rem;
+            padding-bottom: 2.5rem;
+            font-family: 'Libre Baskerville';
+            font-size: 24px;
+            font-style: italic;
+            font-weight: 100;
+        }
+
+        .poem__title--left{
+            text-align: left;
+            margin-left: 3rem;
+            padding-bottom: 2.5rem;
+            font-family: 'Libre Baskerville';
+            line-height: 2; 
+            
+        }
+        .poem__title--right{
+            text-align: right;
+            margin-right: 3rem;
+            padding-bottom: 2.5rem;
+            font-family: 'Libre Baskerville';
+            font-weight: 100;
+            
+        }
+        .paginas{
+            display: flex;
+            justify-content: center;
+            font-family: 'Merriweather', serif; 
+
+        }
+        .poem__text--right{
+            text-align: right;
+            margin-right: 3rem;
+            line-height: 2; 
+        }
+
+
+       /*MEDIA QUAIRIS O COMO SE ESCRIBA*/
+       @media (max-width:480px){
+        
+        .port, .container__pro, .poem__poem{
+        width:23rem;
+        height:auto;
+        box-sizing: border-box;
+        }
+
+        .poem__text, .poem__description, .text__pro{
+            font-size: 12px;
+        }
+        .poem__description{
+            padding: 3rem 3rem 3rem 1rem;
+        }
+        .poem__text{
+            padding: 1rem 2rem 1rem 1rem;
+        }
+        .poem__text--right {
+            margin-right: -1rem;
+        }
+        .port__title{
+        height: 40rem;
+        width: 100%;
+        background: url("../img/port.jpg") no-repeat center / 131% 40rem;
+        border-radius: 5px;
+        }
+        .poem__title--left {
+            /* line-height: 0; */
+            margin-left: 10px;
+        }
+        .poem__title{
+            font-size: 20px;
+        }
+         .poem__title--right {
+        margin-right: 1rem;
+        }
+        
+
+        .text__port--active{
+            padding-right: 1.5rem;
+            font-size: 13px;
+            margin-left: 1.5rem;
+        }
+
+        .text__pro{
+            padding: 1rem;
+            line-height: 1.5;
+            font-size:  11px;
+
+        } 
+       
+        .img--description{
+            width: 100%;
+            height: 22rem;
+        }
+
+        .img__relleno{
+            margin: 70px 43px 0;
+
+        }
+        #poem__title--grado {
+            height: 110%;
+            width: 100%;
+        }
+        #video__teamo{
+            margin: 20px 40px 20px;
+        }
+    }
+       
+        
+       
